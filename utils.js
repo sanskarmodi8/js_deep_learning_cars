@@ -1,7 +1,6 @@
-function lInterpolate(a,b,t){
-    return a+(b-a)*t;
+function lerp(A,B,t){
+    return A+(B-A)*t;
 }
-
 
 function getIntersection(A,B,C,D){ 
     const tTop=(D.x-C.x)*(A.y-C.y)-(D.y-C.y)*(A.x-C.x);
@@ -13,8 +12,8 @@ function getIntersection(A,B,C,D){
         const u=uTop/bottom;
         if(t>=0 && t<=1 && u>=0 && u<=1){
             return {
-                x:lInterpolate(A.x,B.x,t),
-                y:lInterpolate(A.y,B.y,t),
+                x:lerp(A.x,B.x,t),
+                y:lerp(A.y,B.y,t),
                 offset:t
             }
         }
@@ -47,3 +46,9 @@ function getRGBA(value){
     const B=value>0?0:255;
     return "rgba("+R+","+G+","+B+","+alpha+")";
 }
+
+function getRandomColor(){
+    const hue=290+Math.random()*260;
+    return "hsl("+hue+", 100%, 60%)";
+}
+                

@@ -17,10 +17,15 @@ button{
     border-radius: 5px;
     padding: 5px 5px 7px 5px;
     margin: 2px;
+    margin-bottom: 10px;
     cursor:pointer;
+    font-size: x-large;
 }
-button:hover{
-    background:blue;
+#button1:hover{
+    background:green;
+}
+#button2:hover{
+    background:red;
 }
 
 #networkCanvas{
