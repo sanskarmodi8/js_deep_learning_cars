@@ -44,7 +44,7 @@ const traffic=[
     new Car(road.getLaneCenter(0),-1400,45,70,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(2),-1200,50,80,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(2)-50,-150,40,70,"DUMMY",2,getRandomColor()),
-    new Car(road.getLaneCenter(2)+100,-450,50,80,"DUMMY",2,getRandomColor()),
+    new Car(road.getLaneCenter(2)+70,-520,50,80,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(1)-45,-1300,40,70,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(1)+90,-1000,40,70,"DUMMY",2,getRandomColor()),
     new Car(road.getLaneCenter(2)-100,-1200,50,80,"DUMMY",2,getRandomColor()),
