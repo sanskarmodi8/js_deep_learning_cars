@@ -2,6 +2,10 @@
 
 Welcome to the Self-Driving Car Project, a JavaScript-based implementation of a self-driving car with no external libraries. In this project, you will find a self-driving car that navigates a simulated road, complete with AI-controlled cars, sensors, and neural networks. This README will provide an overview of the project, its structure, and how to use it.
 
+Live Demo -- https://sanskarmodi8.github.io/js_deep_learning_cars/
+
+![Alt text](image.png)
+
 ## Project Overview
 
 The Self-Driving Car Project is a web-based simulation of a self-driving car. The project uses HTML, CSS, and JavaScript to create a virtual environment in which a self-driving car is controlled by a neural network. The car navigates a road, avoiding collisions with other vehicles and the road's borders. The project demonstrates the following key components:
